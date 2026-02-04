@@ -1,4 +1,7 @@
-[project]
+[project] 
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
 name = "fairsharer"
 version = "0.1.0"
 description = "Fair sharing simulation in Python for DAISY course assignment"
