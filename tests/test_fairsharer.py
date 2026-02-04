@@ -7,4 +7,3 @@ def test_example_one_iteration():
 
 def test_example_two_iterations():
     assert fair_sharer([0, 1000, 800, 0], 2) == [100, 890, 720, 90]
-
