@@ -1,4 +1,4 @@
-from src.fairsharer import fair_sharer
+from fairsharer import fair_sharer
 
 
 def test_example_one_iteration():
